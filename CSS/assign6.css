@@ -1,0 +1,49 @@
+#mainbox {
+    height: 90vh;
+    width: 80vw;
+    border: 2px solid rgb(6, 6, 6);
+    display: flex;
+    align-items: center;
+}
+
+#mainbox:hover .innerbox {
+    /* position: relative; */
+    margin-left: 73.5%;
+    /* / border-radius: 34%; */
+}
+
+.innerbox {
+    border-radius: 50%;
+    transition: 2s;
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+}
+
+#one {
+    position: absolute;
+    background-color: rgb(238, 8, 39);
+    transition: 4s;
+    transition-timing-function: ease-out;
+}
+
+#two {
+    position: absolute;
+    transition-timing-function: ease-out;
+    transition: 4.3s 1s;
+    background-color: rgb(43, 164, 7);
+}
+
+#three {
+    position: absolute;
+    transition-timing-function: ease-out;
+    transition: 4.6s 1.3s;
+    background-color: rgb(7, 7, 250);
+}
+
+#four {
+    position: absolute;
+    transition-timing-function: ease-out;
+    transition: 4.9s 1.6s;
+    background-color: rgb(204, 224, 20);
+}

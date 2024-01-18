@@ -1,0 +1,39 @@
+#parent {
+    height: 80%;
+    width: 90%;
+    border: 2px solid black;
+}
+
+#parent:hover .child {
+    border-radius: 50%;
+    margin-left: 92.8%;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    transition: 3s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#one {
+    background-color: rgb(189, 189, 240);
+    transition-timing-function: linear;
+}
+
+#two {
+    background-color: rgb(79, 20, 106);
+    transition-timing-function: ease-in;
+}
+
+#three {
+    background-color: rgb(60, 12, 76);
+    transition-timing-function: ease-out;
+}
+
+#four {
+    background-color: rgb(142, 77, 137);
+    transition-timing-function: ease-in-out;
+}

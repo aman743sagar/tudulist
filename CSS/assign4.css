@@ -1,0 +1,85 @@
+/* Reset all margins and paddings */
+
+* {
+    margin: 0 0;
+    text-decoration: none;
+    font-family: 'gilroy';
+}
+
+
+/* Style the navigation bar */
+
+nav {
+    height: 30px;
+    background-color: #0ca8eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+/* Style the box container */
+
+#box {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+/* Style the coding link */
+
+#coding a {
+    font-weight: 700;
+    color: white;
+}
+
+
+/* Style the other links */
+
+#box a {
+    color: white;
+}
+
+
+/* Change the color of the other links when hovered */
+
+#box a:hover {
+    color: black;
+}
+
+
+/* Change the color of the coding link when hovered */
+
+#coding a:hover {
+    color: rgb(14, 6, 0);
+}
+
+
+/* Responsive design for screens with a maximum width of 500px */
+
+@media screen and (max-width:500px) {
+    nav {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    #box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/*DELIMITER*/
+
+
+/*DELIMITER*/
+
+
+/* This CSS code provides a clean and concise commenting style. It is important to maintain a consistent commenting style throughout your code,
+as it helps improve readability and maintainability..</s> */

@@ -1,0 +1,12 @@
+                    div {
+                        height: 300px;
+                        width: 300px;
+                        background-color: cornflowerblue;
+                        transition: 2s;
+                    }
+                    
+                    div:hover {
+                        background-color: rgb(175, 237, 100);
+                        border-radius: 50%;
+                        transition: 2s;
+                    }

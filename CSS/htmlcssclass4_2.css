@@ -1,0 +1,30 @@
+ul>li {
+    border: 3px solid red;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1698089650324-a1b02d97b1fd?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1673716788638-2830d1c98405?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+}
+
+div:hover {
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1698310876902-1138bc8ec442?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+li:last-child {
+    color: crimson;
+}
+
+
+/* odd/even */
+
+li:nth-of-type(odd) {
+    color: blueviolet;
+}

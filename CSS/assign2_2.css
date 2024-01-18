@@ -1,0 +1,29 @@
+#box {
+    width: 100vw;
+    height: 25px;
+    background-color: black;
+}
+
+
+/* ul #co {
+    align-items: self-start;
+} */
+
+ul {
+    justify-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+}
+
+#button button {
+    display: flex-end;
+    border-radius: 13%;
+}
+
+a:hover {
+    color: rgb(209, 98, 23);
+}

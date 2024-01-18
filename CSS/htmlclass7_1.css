@@ -1,0 +1,52 @@
+    /* Define the child_main class with a fixed width and height.
+   The font size is set to 12vh, which means it will be 12% of the viewport height. */
+    
+    .child_main {
+        width: 100px;
+        height: 100px;
+        font-size: 12vh;
+    }
+    
+    #parent {
+        width: 90vw;
+        height: 90vh;
+        border: 3px solid red;
+        display: flex;
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+    }
+    /* Define the background color for each child element. */
+    
+    #one {
+        background-color: blue;
+        /* flex-basis: 200px; */
+        flex-grow: 2;
+    }
+    
+    #two {
+        background-color: rgb(0, 238, 255);
+        flex-grow: 3;
+    }
+    
+    #three {
+        background-color: rgb(195, 255, 0);
+    }
+    
+    #four {
+        background-color: rgb(255, 174, 0);
+    }
+    
+    #five {
+        background-color: rgb(255, 0, 0);
+    }
+    
+    #six {
+        background-color: rgb(0, 149, 255);
+    }
+    
+    #seven {
+        background-color: rgb(195, 0, 255);
+    }
+    /*DELIMITER*/
+    /*DELIMITER*/

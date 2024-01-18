@@ -1,0 +1,41 @@
+        nav {
+            height: 4vh;
+            width: 100%;
+            background-color: black;
+        }
+        
+        nav #logo a {
+            padding-left: 15px;
+            font-weight: 600;
+            color: orangered;
+        }
+        
+        nav span a {
+            color: white;
+        }
+        
+        nav,
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+        
+        nav span a:hover {
+            color: crimson;
+        }
+        
+        #button {
+            padding-bottom: 3px;
+            padding-right: 13px;
+            padding-top: 3px;
+        }
+        
+        #button,
+        button {
+            border-radius: 6%;
+            color: white;
+            font-family: "gilroy";
+            font-weight: 300;
+        }

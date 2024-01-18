@@ -1,0 +1,14 @@
+* {
+    /* universal */
+    background-color: black;  
+    /* height:200px;
+    width: 200px;   */
+}
+
+article p {
+    color: yellowgreen;
+}
+
+article #a1 p {
+    color: red;
+}
